@@ -1,0 +1,75 @@
+.global-header__logo{
+    height: 22px;
+    padding-left: 30px;
+}
+.mid-footer{
+    text-align: center;
+}
+
+.btn-PreviewItem{
+  height: 60px;
+  width: 200px;
+  display: inline-block;
+  border-radius: 10px;
+  background:#0084B4;
+  text-align: center;
+  text-decoration: none;
+  line-height: 57px;
+  color: #ffff;
+  margin-bottom: 20px;
+}
+
+
+.btn-AddtoFavorites{
+    height: 60px;
+    width: 220px;
+    display: inline-block;
+    border-radius: 10px;
+    background:#e0e0e0;
+    text-align: center;
+    text-decoration: none;
+    line-height: 57px;
+    color:#666666;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.btn-AddtoCollection{
+    height: 60px;
+    width: 220px;
+    display: inline-block;
+    border-radius: 10px;
+    background:#e0e0e0;
+    text-align: center;
+    text-decoration: none;
+    line-height: 57px;
+    color:#666666;
+    margin-bottom: 20px;
+}
+.btn-AddtoCart{
+    background-color: #7aa93c;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 200px;
+}
+.btn-BuyNow{
+    background-color: gray;
+    margin-top: 20px;
+    width: 200px;
+    padding: 15px 20px;
+}
+body {
+    background: #fff;
+    color: #333;
+ }
+ @media all and (max-width: 320px) {
+    body {
+       background: #fff;
+    }
+ }
+ @media only screen and (min-width: 320px) and (max-width: 860px) {}
+
+.img img:hover{
+    transform: translateY(-15px);
+    
+}
